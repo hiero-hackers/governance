@@ -10,7 +10,7 @@ body:
         ---
         ## New Repository Request
 
-        Anyone can request a new repository at hiero-hackers. Please complete the fields below so a maintainer can setup your request.
+        Anyone can request a new repository at hiero-hackers. Please complete the fields below so a maintainer can set-up your request.
 
         ### What happens next
         - A maintainer reviews the request
@@ -27,7 +27,9 @@ body:
       description: |
         What name will the repository have?
         State the name exactly as you want it to appear (e.g. `hiero-sdk-go`).
-      value: |
+      placeholder: hiero-sdk-go
+    validations:
+      required: true
 
   - type: textarea
     id: description
@@ -36,7 +38,6 @@ body:
       description: |
         Provide a short description of the repository (1-2 sentences) to be used in the repository description and README.
         You can edit this later.
-      value: |
     validations:
       required: true
 
@@ -46,6 +47,5 @@ body:
       label: 🧑‍💻 Aside from you, who should have write permissions to the repository?
       description: |
         List any additional GitHub usernames of individuals who should have write permissions to the repository.
-      value: |
     validations:
       required: false
