@@ -1,5 +1,5 @@
 name: New Repository Request
-description: Create a New Hiero-Hackers Repository Request
+description: Request a new hiero-hackers repository to be created for you by a maintainer.
 title: "[New Repository Request]:"
 labels: []
 assignees: []
@@ -8,12 +8,16 @@ body:
     attributes:
       value: |
         ---
-        ## **Welcome!** 😊
+        ## New Repository Request
 
-        Anybody can request a new repository at Hiero-Hackers.
-        
-        Briefly answer the questions so a maintainer can understand your needs and create the repository for you.
-        Thank you.
+        Anyone can request a new repository at hiero-hackers. Please complete the fields below so a maintainer can setup your request.
+
+        ### What happens next
+        - A maintainer reviews the request
+        - The repository is created
+        - You are added as a maintainer
+
+        Thank you for contributing.
         ---
 
   - type: textarea
@@ -24,7 +28,6 @@ body:
         What name will the repository have?
         State the name exactly as you want it to appear (e.g. `hiero-sdk-go`).
       value: |
-        Edit here.
 
   - type: textarea
     id: description
@@ -34,7 +37,6 @@ body:
         Provide a short description of the repository (1-2 sentences) to be used in the repository description and README.
         You can edit this later.
       value: |
-        Edit here.
     validations:
       required: true
 
@@ -44,8 +46,6 @@ body:
       label: 🧑‍💻 Aside from you, who should have write permissions to the repository?
       description: |
         List any additional GitHub usernames of individuals who should have write permissions to the repository.
-        You'll be added as a maintainer by default and you can manage permissions later.
       value: |
-        Edit here.
     validations:
       required: false
