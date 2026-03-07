@@ -1,0 +1,51 @@
+name: New Repository Request
+description: Create a New Hiero-Hackers Repository Request
+title: "[New Repository Request]:"
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## **Welcome!** 😊
+
+        Anybody can request a new repository at Hiero-Hackers.
+        
+        Briefly answer the questions so a maintainer can understand your needs and create the repository for you.
+        Thank you.
+        ---
+
+  - type: textarea
+    id: name
+    attributes:
+      label: 🆕 Repository Name
+      description: |
+        What name will the repository have?
+        State the name exactly as you want it to appear (e.g. `hiero-sdk-go`).
+      value: |
+        Edit here.
+
+  - type: textarea
+    id: 💡 description
+    attributes:
+      label: Short description
+      description: |
+        Provide a short description of the repository (1-2 sentences) to be used in the repository description and README.
+        You can edit this later.
+      value: |
+        Edit here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: 🧑‍💻 committers
+    attributes:
+      label: Aside from you, who should have write permissions to the repository?
+      description: |
+        List any additional GitHub usernames of individuals who should have write permissions to the repository.
+        You'll be added as a maintainer by default and you can manage permissions later.
+      value: |
+        Edit here.
+    validations:
+      required: false
