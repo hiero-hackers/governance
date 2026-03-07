@@ -27,9 +27,9 @@ body:
         Edit here.
 
   - type: textarea
-    id: 💡 description
+    id: description
     attributes:
-      label: Short description
+      label: 💡 Short description
       description: |
         Provide a short description of the repository (1-2 sentences) to be used in the repository description and README.
         You can edit this later.
@@ -39,9 +39,9 @@ body:
       required: true
 
   - type: textarea
-    id: 🧑‍💻 committers
+    id: committers
     attributes:
-      label: Aside from you, who should have write permissions to the repository?
+      label: 🧑‍💻 Aside from you, who should have write permissions to the repository?
       description: |
         List any additional GitHub usernames of individuals who should have write permissions to the repository.
         You'll be added as a maintainer by default and you can manage permissions later.
